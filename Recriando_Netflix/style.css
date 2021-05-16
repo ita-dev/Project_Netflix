@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14%;
+}
+
+.container h1  {
+    color: red;
+    font-family: 'Arial', Times, serif;
+    font-size: 105pt;
+}
+
+nav .container {
+    margin-left: 45%;
+}
+ 
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+a:hover {
+    font-weight:unset;
+    font-weight: bold;
+}
+
